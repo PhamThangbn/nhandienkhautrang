@@ -40,3 +40,5 @@ def preprocess_image(image_path, target_size):
     image = np.expand_dims(image, axis=-1)
     return image
 #chưa thấy ai chỉnh sửa
+prepr = preprocess_image(image_path, 128)
+print(prepr)
